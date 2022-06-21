@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/darkpan/static/css/main.6b069116.css",
+    "main.js": "/darkpan/static/js/main.d7c62f14.js",
+    "static/js/787.31cd6192.chunk.js": "/darkpan/static/js/787.31cd6192.chunk.js",
+    "static/media/Gerard.jpg": "/darkpan/static/media/Gerard.c3cbb27a0b9843f55757.jpg",
+    "static/media/winners.svg": "/darkpan/static/media/winners.af0644b42f17bc925f792de46f59804f.svg",
+    "static/media/soporte.svg": "/darkpan/static/media/soporte.1e83da7e21c1d84eee7c661fb70be86a.svg",
+    "static/media/sh.svg": "/darkpan/static/media/sh.bb7f19bdf20c012b56c4a36d99da6764.svg",
+    "static/media/organizado.svg": "/darkpan/static/media/organizado.9c43503034bb818f4088dea27268fe2d.svg",
+    "static/media/bh2.svg": "/darkpan/static/media/bh2.6cd96b41f85a140ddfb7561f87bb4820.svg",
+    "static/media/bh.svg": "/darkpan/static/media/bh.d9ce6a88e1f8b87c7c588f1d75e71c6b.svg",
+    "static/media/logow1.svg": "/darkpan/static/media/logow1.847e3aad854a8046a214dcc8f8cf7bff.svg",
+    "static/media/opinions.svg": "/darkpan/static/media/opinions.578679f4297069e9ce8323619779a4bc.svg",
+    "static/media/benefits.svg": "/darkpan/static/media/benefits.60d090ec7954bfffb62a9965fb085f9e.svg",
+    "static/media/us.svg": "/darkpan/static/media/us.fd3a18895cc75da15f0d3430222a6b29.svg",
+    "index.html": "/darkpan/index.html",
+    "main.6b069116.css.map": "/darkpan/static/css/main.6b069116.css.map",
+    "main.d7c62f14.js.map": "/darkpan/static/js/main.d7c62f14.js.map",
+    "787.31cd6192.chunk.js.map": "/darkpan/static/js/787.31cd6192.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b069116.css",
+    "static/js/main.d7c62f14.js"
+  ]
+}
