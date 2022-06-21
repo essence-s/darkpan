@@ -1,0 +1,83 @@
+.contact{
+  background: var(--gradients-bg);
+}
+.contact-container{
+    padding: 90px 20px;
+}
+.contact-content p{
+    font-family: var(--font-family);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contact-formEmail{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contact-formEmail-input{
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 30px;
+    display: inline-flex;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px #00000017;
+    width: 100%;
+    max-width: 310px;
+    transition: 0.5s;
+}
+
+.contact-formEmail-input input{
+    border: 0;
+    padding: 0 15px;
+    border-radius: 4px 0 0 4px;
+    outline: 0;
+    flex: 1;
+}
+
+.contact-formEmail-input button{
+    border: 0;
+    background: #f0a57f;
+    padding: 10px;
+    /* border-radius: 0 10px 10px 0; */
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    width: 38px;
+    height: 38px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contact-formEmail-input button:active{
+    transform: translateY(2px);
+    
+}
+
+.contact-info{
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  color: #fff;
+}
+
+.contact-redes{
+  margin-top: 30px;
+  font-size: 2rem;
+  display: grid;
+  /* gap: 10px; */
+  grid-template-columns: repeat(auto-fit,minmax(10px,50px));
+  color: #fff;
+  justify-content: center;
+}
+.contact-redes-icon{
+  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+  .contact-formEmail-input{
+    max-width: 290px;
+  }
+}

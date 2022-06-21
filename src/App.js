@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import {Navbar,Footer} from './components/layouts/index'
+import Home from './views/home/Home'
+import {DivSwitchTheme} from './components/common/switchTheme/SwitchTheme'
 
 function App() {
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App blackm">
+        <DivSwitchTheme data={{c1:'default',c2:'black'}}>
+          <Navbar></Navbar>
+          <Home></Home>
+          <Footer></Footer>
+          {/* <System></System> */}
+        </DivSwitchTheme>
+      </div>
   );
 }
 
