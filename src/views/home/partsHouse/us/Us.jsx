@@ -1,8 +1,9 @@
 import React from 'react';
 import './us.css';
-import svgWinners from 'assets/soporte.svg'
+// import svgWinners from 'assets/soporte.svg'
 import { ContainerMaxWidth } from 'components/common';
-import usSvg from './files/us.svg'
+// import usSvg from './files/us.svg'
+import rowLeft from './files/archive.svg'
 
 const Us =()=>{
     return(
@@ -21,16 +22,27 @@ const Us =()=>{
                         <div className="us-content-fragments">
 
                             <div className="us-content-fragments_data">
-                                <span><i className="fa fa-calendar" aria-hidden="true"></i></span>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <span><img src={rowLeft} alt=""/></span>
+                                <div className="us-fragmentsInfo">
+                                  <p>Perfil de la empresa</p>
+                                  <p>He aquí una mirada más cercana a nuestra empresa.</p>
+                                </div>
                             </div>
                             <div className="us-content-fragments_data">
-                                <span><i className="fa fa-calendar" aria-hidden="true"></i></span>
-                                <p>Fugiat dolor ut repellat quidem optio! Corporis tempore explicabo </p>
+                                <span><img src={rowLeft} alt=""/></span>
+                                <div className="us-fragmentsInfo">
+                                  <p>Cronología de la empresa</p>
+                                  <p>Lea una breve historia , 
+                                  desde 2003 hasta la actualidad.</p>
+                                </div>
                             </div>
                             <div className="us-content-fragments_data">
-                                <span><i className="fa fa-calendar" aria-hidden="true"></i></span>
-                                <p>voluptatum, quaerat architecto .</p>
+                                <span><img src={rowLeft} alt=""/></span>
+                                <div className="us-fragmentsInfo">
+                                  <p>Ética y Cumplimiento</p>
+                                  <p>Hacer lo correcto es
+                                  vital para el éxito de la empresa.</p>
+                                </div>
                             </div>
                             
                         </div>

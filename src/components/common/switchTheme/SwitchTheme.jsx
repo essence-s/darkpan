@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useState } from 'react';
 import './switchTheme.css';
+import luna from './files/luna.svg'
+import sol from './files/sol.svg'
 
-// let [prue,setprue]=useState()
-//
 const switchThemeContext=createContext("dino")
 
 const useSwitchTheme=()=>{
@@ -10,13 +10,9 @@ const useSwitchTheme=()=>{
   return {stateSwitchTheme,setStateSwitchTheme}
 }
 
-const ProviderSwitchTheme=({children,data})=>{
-  
-  
+const ProviderSwitchTheme=({children,data})=>{ 
   return(
-    <switchThemeContext.Provider value={
-      data
-      }>
+    <switchThemeContext.Provider value={data}>
       {children}
     </switchThemeContext.Provider>
   )
@@ -44,14 +40,17 @@ const SwitchTheme=()=>{
         // console.log(stateSwitchTheme)
     }
     return(
-        
-        <>
-          <div className="switchTheme" onClick={()=>cambio()}>
-               
-            <span style={{transform:`${stateSwitchTheme?'translate(16px, 0px)':''}`}} ></span>
-                
-            </div>
-        </>
+        <div className="switchTheme" onClick={()=>cambio()}>
+            
+          <div className="switchTheme-contentIconLeft">
+            <img src={luna} alt=""/>
+          </div>
+          <span style={{transform:`${stateSwitchTheme?'translate(16px, 0px)':''}`}} ></span>
+          <div className="switchTheme-contentIconRight">
+            <img src={sol} alt=""/>
+          </div>
+
+        </div>
     )
 }
 

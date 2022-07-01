@@ -5,10 +5,6 @@ import './home.css'
 import {Header,Benefits,Us,Opinions,Contact} from './partsHouse/index'
 
 const Home =()=>{
-
-	let sdf=()=>{
-		
-	}
     return(
         <>
 		
@@ -18,7 +14,6 @@ const Home =()=>{
                 <Us></Us>
                 <Opinions></Opinions>
                 <Contact></Contact>
-
             </div>
         </>
     )

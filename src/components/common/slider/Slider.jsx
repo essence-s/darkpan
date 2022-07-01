@@ -1,5 +1,7 @@
 import React, { useEffect ,useRef} from "react";
 import './slider.css'
+import rowLeft from './files/rowLeft.svg'
+import rowRight from './files/rowRight.svg'
 
 const Slider = ({children,m=25,data}) =>{
 
@@ -231,12 +233,14 @@ useEffect(()=>{
 
             <div className="slider-controls">
                 <div className="back" 
-                onClick={()=>{ pageChange(false) }}
-                > <i className="fa fa-angle-left" aria-hidden="true"></i> </div>
+                onClick={()=>{ pageChange(false) }}> 
+                  <img src={rowLeft} alt=""/>
+                </div>
 
                 <div className="next" 
-                onClick={()=>{ pageChange(true) }}
-                > <i className="fa fa-angle-right" aria-hidden="true"></i></div>
+                onClick={()=>{ pageChange(true) }}>
+                  <img src={rowRight} alt=""/>
+                </div>
             </div>
             
         </div>

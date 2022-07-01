@@ -2,7 +2,7 @@
   background: var(--gradients-bg);
 }
 .contact-container{
-    padding: 90px 20px;
+    padding: 100px 20px;
 }
 .contact-content p{
     font-family: var(--font-family);
@@ -13,7 +13,7 @@
 }
 
 .contact-formEmail{
-    padding: 90px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -59,7 +59,7 @@
 .contact-info{
   display: flex;
   justify-content: center;
-  gap: 43px;
+  gap: 20px;
   color: #fff;
 }
 
@@ -67,10 +67,17 @@
   margin-top: 30px;
   font-size: 2rem;
   display: grid;
-  /* gap: 10px; */
-  grid-template-columns: repeat(auto-fit,minmax(10px,50px));
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(10px,35px));
   color: #fff;
   justify-content: center;
+}
+.contact-redesContent{
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.contact-redesContent:hover{
+  transform: scale(1.1);
 }
 .contact-redes-icon{
   text-align: center;

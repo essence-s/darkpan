@@ -45,7 +45,8 @@ const Opinions = () => {
                                 </div>
                                 <div className="opinions-card-sec1">{r}</div>
                                 <div className="opinions-card-sec2">
-                                    Son muy buenos en su Trabajo lo hacen bien no tuve ningun problema
+                                    Son muy buenos en su Trabajo lo hacen bien no
+                                    tuve ningun problema
                                 </div>
 
                             </div>

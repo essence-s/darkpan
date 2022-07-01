@@ -35,9 +35,14 @@
     align-items: center;
     font-size: 25px;
 }
-.slider-controls .back{
-    left: 5px;
-
+.slider-controls .back img,.slider-controls .next img{
+  width: 14px;
+}
+.slider-controls .back img{
+  margin-right: 2px;
+}
+.slider-controls .next img{
+  margin-left: 2px;
 }
 .slider-controls .next{
     right: 5px;

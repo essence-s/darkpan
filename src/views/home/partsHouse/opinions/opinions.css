@@ -44,9 +44,9 @@
 
 /* opinions-card */
 .opinions-card{
-    background: linear-gradient(224deg, #f0a57e, #e7666b);
+    background: linear-gradient(186deg, #f0a57e, #ee888c);
     /* width: 225px; */
-    color: var(--color-text);
+    color: white;
     /* height: 200px; */
     position: relative;
     box-shadow: 0px -2px 0px #ffffff2e, 2px 2px 2px #00000030;

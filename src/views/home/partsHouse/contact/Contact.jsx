@@ -1,7 +1,8 @@
 import { ContainerMaxWidth } from "components/common";
 import React, {useRef} from "react";
 import './contact.css'
-
+import {telegram,github,twitter,facebook} from 'assets/iconSR'
+import plane from './files/plane.svg'
 import { motion, Variants } from "framer-motion";
 
 const cardVariants = {
@@ -50,7 +51,7 @@ const Contact = () =>{
                         variants={cardVariants}>
 
                         <input ref={refInputP} type="email"  placeholder="Email" />
-                        <button><i className="fa fa-paper-plane"></i></button>
+                        <button><img src={plane} alt=""/></button>
 
                       </motion.form>
 
@@ -58,24 +59,25 @@ const Contact = () =>{
                     
 
                     <div className="contact-info">
-                      <div className="">home</div>
-                      <div className="">benefits</div>
-                      <div className="">about</div>
+                      <div className="">Home</div>
+                      <div className="">Benefits</div>
+                      <div className="">About us</div>
+                      <div className="">Opinions</div>
                       
                     </div>
 
                     <div className="contact-redes">
-                      <div className="contact-redes-icon">
-                        <i className="fa fa-telegram" aria-hidden="true"></i>
+                      <div className="contact-redesContent">
+                        <img src={telegram} alt=""/> 
                       </div>
-                      <div className="contact-redes-icon">
-                        <i className="fa fa-twitter" aria-hidden="true"></i>
+                      <div className="contact-redesContent">
+                        <img src={github} alt=""/> 
                       </div>
-                      <div className="contact-redes-icon">
-                         <i className="fa fa-facebook" aria-hidden="true"></i>
+                      <div className="contact-redesContent">
+                        <img src={twitter} alt=""/> 
                       </div>
-                      <div className="contact-redes-icon">
-                        <i className="fa fa-github" aria-hidden="true"></i>
+                      <div className="contact-redesContent">
+                        <img src={facebook} alt=""/>
                       </div>
                     </div>
 

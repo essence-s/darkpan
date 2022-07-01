@@ -57,7 +57,9 @@ const Benefits =()=>{
                         </div>
 
                         <div className="benefits-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ipsa corporis omnis voluptatibus provident soluta saepe nostrum similique ad, labore doloribus, officia ratione, dolorem rem repudiandae ipsam ex est quibusdam.
+                          Hacemos esto asesorando y capacitando a los líderes para que 
+                          impulsen prácticas comerciales éticas, asociándonos con la 
+                          empresa para garantizar una gestión eficaz 
                         </div>
                       </div>
                     </div>
