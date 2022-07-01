@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/darkpan/static/css/main.f3e25e76.css",
-    "main.js": "/darkpan/static/js/main.569945d3.js",
+    "main.css": "/darkpan/static/css/main.3d273bd6.css",
+    "main.js": "/darkpan/static/js/main.b485e49a.js",
     "static/js/787.31cd6192.chunk.js": "/darkpan/static/js/787.31cd6192.chunk.js",
     "static/media/Gerard.jpg": "/darkpan/static/media/Gerard.c3cbb27a0b9843f55757.jpg",
     "static/media/winners.svg": "/darkpan/static/media/winners.af0644b42f17bc925f792de46f59804f.svg",
@@ -24,12 +24,12 @@
     "static/media/luna.svg": "/darkpan/static/media/luna.2bfb7d585b4eece46d03c2e4535c3629.svg",
     "static/media/rowLeft.svg": "/darkpan/static/media/rowLeft.c74f0ec36b2800a32d41b2756eef88e4.svg",
     "static/media/rowRight.svg": "/darkpan/static/media/rowRight.982c87be3aa8da666d45b052a5d1cf69.svg",
-    "main.f3e25e76.css.map": "/darkpan/static/css/main.f3e25e76.css.map",
-    "main.569945d3.js.map": "/darkpan/static/js/main.569945d3.js.map",
+    "main.3d273bd6.css.map": "/darkpan/static/css/main.3d273bd6.css.map",
+    "main.b485e49a.js.map": "/darkpan/static/js/main.b485e49a.js.map",
     "787.31cd6192.chunk.js.map": "/darkpan/static/js/787.31cd6192.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3e25e76.css",
-    "static/js/main.569945d3.js"
+    "static/css/main.3d273bd6.css",
+    "static/js/main.b485e49a.js"
   ]
 }
