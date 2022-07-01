@@ -12,12 +12,12 @@
 }
 .container-benefits{
 
-    padding: 100px 0;
+    padding: 100px 30px;
     position: inherit;
 }
 .benefits-content{
     display: flex;
-    /* padding: 100px 0; */
+    gap: 30px;
     color: var(--color-text);
     justify-content: space-evenly;
 }
@@ -117,12 +117,13 @@
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     .container-benefits {
         padding: 60px 20px 0 20px;
     }
     .benefits-content{
         flex-direction: column-reverse;
+        align-items: center;
     }
     .benefits-illus{
         transform: scale(0.6);

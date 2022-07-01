@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import './switchTheme.css';
 import luna from './files/luna.svg'
 import sol from './files/sol.svg'
@@ -22,9 +22,14 @@ const DivSwitchTheme=({children,className,data})=>{
   
   let c1=data?.c1?data.c1:''
   let c2=data?.c2?data.c2:''
-  let [stateSwitchTheme,setStateSwitchTheme]=useState(false)
-  // console.log(stateSwitchTheme)
+  let getSwTheme=JSON.parse(localStorage.getItem('LSSwitchT'))?.SwTheme
+  let [stateSwitchTheme,setStateSwitchTheme]=useState(getSwTheme||false)
 
+  useEffect(()=>{
+    localStorage.setItem('LSSwitchT', JSON.stringify({SwTheme:stateSwitchTheme}))
+    // console.log(stateSwitchTheme)
+  },[stateSwitchTheme])
+  
   return(
     <ProviderSwitchTheme data={{stateSwitchTheme,setStateSwitchTheme}}>
       <div className={`${className?className:''} ${stateSwitchTheme?c2:c1}`}>{children}</div>
