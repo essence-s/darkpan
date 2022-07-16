@@ -52,6 +52,10 @@ const Navbar = () => {
             item.addEventListener('click',()=>{
                 console.log(ind)
                 indice.style.transform=`translateX(${75*(ind)}px)`;
+                indice.style.transition='0.5s 0.4s'
+                setTimeout(()=>{
+                  indice.style.transition='0.5s'
+                },400)
             })
         })
 
@@ -80,6 +84,7 @@ const Navbar = () => {
                     if(item.getAttribute('href')===`#${r}`){
                         // console.log(`click ${r}`)
                         indice.style.transform=`translateX(${75*(ind)}px)`;
+                        // indice.style.transition='0.5s'
                         indiClick=false
                     }
                         

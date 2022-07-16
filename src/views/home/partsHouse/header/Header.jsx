@@ -41,19 +41,21 @@ const Header = () => {
               variants={container}
               initial="hidden"
               animate="show">
-
+              
+                {/* <img className="fondosvg" src={headersvg} alt=""/> */}              
               <img className="fondosvg" 
               src={`${stateSwitchTheme?headersvg2:headersvg}`} alt=""/>
+              {/* <object type='image/svg+xml' role='img' aria-disabled='true' tabindex='-1' className='fondosvg' data={`${stateSwitchTheme?headersvg2:headersvg}`}></object> */}
 
                 <ContainerMaxWidth className="header-container">
 
 
                     <div className="header-content">
 
-                        <motion.div className="titulo" variants={item}>
+                        <motion.div className="header-title" variants={item}>
                           Este es su Momento
                         </motion.div>
-                        {/* <div className="titulo2"></div> */}
+                        {/* <div className="header-title2"></div> */}
                         <motion.div className="" variants={item}>
                           <p>Si lo nesesitas lo tenemos solo aqui!</p>
                           <p>asi que esperas Consulte no pierdas pierdas tiempo</p>

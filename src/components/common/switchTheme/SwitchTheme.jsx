@@ -22,12 +22,18 @@ const DivSwitchTheme=({children,className,data})=>{
   
   let c1=data?.c1?data.c1:''
   let c2=data?.c2?data.c2:''
-  let getSwTheme=JSON.parse(localStorage.getItem('LSSwitchT'))?.SwTheme
-  let [stateSwitchTheme,setStateSwitchTheme]=useState(getSwTheme||false)
+  let getSwTheme=false
+
+  try{getSwTheme=JSON.parse(localStorage.getItem('LSSwitchT')).SwTheme}
+  catch(e){console.log(e);
+    getSwTheme=window.matchMedia('(prefers-color-scheme: dark)').matches?true:false
+    console.log(getSwTheme)
+  }
+
+  let [stateSwitchTheme,setStateSwitchTheme]=useState(getSwTheme)
 
   useEffect(()=>{
     localStorage.setItem('LSSwitchT', JSON.stringify({SwTheme:stateSwitchTheme}))
-    // console.log(stateSwitchTheme)
   },[stateSwitchTheme])
   
   return(
