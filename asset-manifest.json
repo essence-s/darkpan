@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/darkpan/static/css/main.3d273bd6.css",
-    "main.js": "/darkpan/static/js/main.b485e49a.js",
+    "main.css": "/darkpan/static/css/main.beae86ba.css",
+    "main.js": "/darkpan/static/js/main.a87e4494.js",
     "static/js/787.31cd6192.chunk.js": "/darkpan/static/js/787.31cd6192.chunk.js",
     "static/media/Gerard.jpg": "/darkpan/static/media/Gerard.c3cbb27a0b9843f55757.jpg",
     "static/media/winners.svg": "/darkpan/static/media/winners.af0644b42f17bc925f792de46f59804f.svg",
@@ -9,9 +9,9 @@
     "static/media/sh.svg": "/darkpan/static/media/sh.bb7f19bdf20c012b56c4a36d99da6764.svg",
     "static/media/organizado.svg": "/darkpan/static/media/organizado.9c43503034bb818f4088dea27268fe2d.svg",
     "static/media/github.svg": "/darkpan/static/media/github.70aae02e84c9beca6d7e69cbc8d59822.svg",
+    "static/media/bh.svg": "/darkpan/static/media/bh.e78991fa2bf88557c04f690879fc1e38.svg",
+    "static/media/bh2.svg": "/darkpan/static/media/bh2.23b3c9eb590d07f8ac939fb26f217344.svg",
     "static/media/sol.svg": "/darkpan/static/media/sol.f68d310c29ba6c7643d783db4aa37946.svg",
-    "static/media/bh2.svg": "/darkpan/static/media/bh2.6cd96b41f85a140ddfb7561f87bb4820.svg",
-    "static/media/bh.svg": "/darkpan/static/media/bh.d9ce6a88e1f8b87c7c588f1d75e71c6b.svg",
     "static/media/logow1.svg": "/darkpan/static/media/logow1.847e3aad854a8046a214dcc8f8cf7bff.svg",
     "static/media/twitter.svg": "/darkpan/static/media/twitter.d23f9b8d3a91b5d00ff7dbf3f3b96d30.svg",
     "static/media/opinions.svg": "/darkpan/static/media/opinions.578679f4297069e9ce8323619779a4bc.svg",
@@ -24,12 +24,12 @@
     "static/media/luna.svg": "/darkpan/static/media/luna.2bfb7d585b4eece46d03c2e4535c3629.svg",
     "static/media/rowLeft.svg": "/darkpan/static/media/rowLeft.c74f0ec36b2800a32d41b2756eef88e4.svg",
     "static/media/rowRight.svg": "/darkpan/static/media/rowRight.982c87be3aa8da666d45b052a5d1cf69.svg",
-    "main.3d273bd6.css.map": "/darkpan/static/css/main.3d273bd6.css.map",
-    "main.b485e49a.js.map": "/darkpan/static/js/main.b485e49a.js.map",
+    "main.beae86ba.css.map": "/darkpan/static/css/main.beae86ba.css.map",
+    "main.a87e4494.js.map": "/darkpan/static/js/main.a87e4494.js.map",
     "787.31cd6192.chunk.js.map": "/darkpan/static/js/787.31cd6192.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d273bd6.css",
-    "static/js/main.b485e49a.js"
+    "static/css/main.beae86ba.css",
+    "static/js/main.a87e4494.js"
   ]
 }
